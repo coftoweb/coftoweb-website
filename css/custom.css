@@ -1344,7 +1344,11 @@ i {
 @media (min-width: 992px) { /* Applies to devices with width more than 992px (tablets and mobiles) */
   #mobileContainerSpecialFeature {
     margin-left: 100px;
-    margin-right: 100px; }
+    margin-right: 100px; } }
+
+
+
+@media (min-width: 992px) {
   #mobileImage {
       margin-left: 10%; /* Apply margin-left on mobile */
     } }
