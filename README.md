@@ -30,3 +30,6 @@ step3: replace package.js content with
 }
 ```
 step4: npm run build
+
+
+Added Cloudflare.
