@@ -1,0 +1,7 @@
+# robots.txt for Coftoweb
+User-agent: *  # Apply to all web crawlers
+Disallow: /private/  # Disallow access to private directory
+Disallow: /temp/  # Disallow access to temporary files
+
+# Allow access to all other content
+Allow: /
