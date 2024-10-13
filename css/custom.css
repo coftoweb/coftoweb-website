@@ -1345,4 +1345,17 @@ i {
   #mobileContainerSpecialFeature {
     margin-left: 100px;
     margin-right: 100px; } }
+
+
+
+@media (min-width: 992px) { /* Applies to devices with width more than 992px (tablets and mobiles) */
+  #mobileImage {
+      margin-left: 10%; /* Apply margin-left on mobile */
+    } }
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  #mobileImage {
+    width: 100%; /* Apply width 100% on mobile */
+  }
+}
     
