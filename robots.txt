@@ -1,7 +1,26 @@
-# robots.txt for Coftoweb
-User-agent: *  # Apply to all web crawlers
-Disallow: /private/  # Disallow access to private directory
-Disallow: /temp/  # Disallow access to temporary files
+# robots.txt for https://www.coftoweb.com
 
-# Allow access to all other content
+# Block sensitive files and unnecessary folders
+User-agent: *
+Disallow: /privacy_policy.txt
+Disallow: /terms_of_use.txt
+Disallow: /robots.txt
+Disallow: /scss/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /img/
+
+# Block bots from search results or query parameter pages
+Disallow: /search
+Disallow: /?*
+
+# Allow all other content to be indexed
 Allow: /
+
+# Block specific bots like AhrefsBot
+User-agent: AhrefsBot
+Disallow: /
+
+# Sitemap location for better crawling
+Sitemap: https://www.coftoweb.com/sitemap.xml
